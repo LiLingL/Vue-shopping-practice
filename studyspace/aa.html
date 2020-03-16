@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zzz</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+    <style>
+        .router-link-active{
+            color: red;
+        }
+
+        .v-enter,.v-leave-to {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        .v-enter-active,.v-leave-active {
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <p>{{msg}}</p>
+    <p>
+        <router-link to="/login?id=1&name=qqq" tag="a">login</router-link>
+        <router-link to="/register" tag="a">register</router-link>
+    </p>
+    <transition mode="out-in">
+        <router-view></router-view>
+    </transition>
+</div>
+
+
+<script>
+
+
+
+    var login = {
+        template: '<h2>这是login组件....id: {{$route.query.id}} -- name: {{$route.query.name}}</h2>'
+    }
+
+    var register = {
+        template: '<h2>register</h2>'
+    }
+
+
+    var routerObj = new VueRouter({
+        routes: [
+            {path: '/login', component: login},
+            {path: '/register', component: register},
+            {path: '/', redirect: '/login'}
+        ]
+    })
+
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            msg: "hello"
+        },
+        router: routerObj
+    })
+</script>
+</body>
+</html>

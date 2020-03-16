@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4730fef-1157-4c1e-9f9b-1e712efec807" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+        <option value="Vue Single File Component" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UUtnZ9u4FkfDG5V8t6QaukyfCr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\File\studyspace\vue" />
+      <recent name="F:\File\studyspace\vue\node_modules" />
+      <recent name="F:\File\studyspace\studyvue\demo1\static" />
+      <recent name="F:\File\studyspace\studyvue\demo1\src\components" />
+      <recent name="F:\File\studyspace\studyvue\demo1\src\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\File\studyspace\vue" />
+      <recent name="F:\File\studyspace\studyvue\demo1\demo-server" />
+      <recent name="F:\File\studyspace\studyvue\demo1\src\views" />
+      <recent name="F:\File\studyspace\studyvue\demo1\static" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4730fef-1157-4c1e-9f9b-1e712efec807" name="Default Changelist" comment="" />
+      <created>1575423168482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575423168482</updated>
+      <workItem from="1575423170701" duration="54000" />
+      <workItem from="1575427343620" duration="8224000" />
+      <workItem from="1575509426912" duration="14764000" />
+      <workItem from="1575594770822" duration="15127000" />
+      <workItem from="1575854487450" duration="13756000" />
+      <workItem from="1575940143100" duration="16328000" />
+      <workItem from="1576026398423" duration="15623000" />
+      <workItem from="1576113250789" duration="1151000" />
+      <workItem from="1576115879441" duration="7204000" />
+      <workItem from="1576199403296" duration="7459000" />
+      <workItem from="1576460391012" duration="2396000" />
+      <workItem from="1576475092294" duration="1397000" />
+      <workItem from="1576544896598" duration="11776000" />
+      <workItem from="1576631492230" duration="19530000" />
+      <workItem from="1576718073805" duration="12146000" />
+      <workItem from="1576804791299" duration="7504000" />
+      <workItem from="1577064389548" duration="9113000" />
+      <workItem from="1577151277062" duration="591000" />
+      <workItem from="1577152196804" duration="7169000" />
+      <workItem from="1577236828677" duration="6862000" />
+      <workItem from="1577322619524" duration="8974000" />
+      <workItem from="1577411735085" duration="967000" />
+      <workItem from="1577413245740" duration="5225000" />
+      <workItem from="1577436360548" duration="4522000" />
+      <workItem from="1577668252146" duration="6755000" />
+      <workItem from="1577689901975" duration="10093000" />
+      <workItem from="1577754845309" duration="12480000" />
+      <workItem from="1577783143248" duration="2494000" />
+      <workItem from="1577927546259" duration="14997000" />
+      <workItem from="1578013999217" duration="3059000" />
+      <workItem from="1578273989606" duration="1286000" />
+      <workItem from="1578275334408" duration="11550000" />
+      <workItem from="1578359953153" duration="13448000" />
+      <workItem from="1578445689652" duration="8203000" />
+      <workItem from="1578532621061" duration="20095000" />
+      <workItem from="1578618568480" duration="9856000" />
+      <workItem from="1578878446265" duration="1229000" />
+      <workItem from="1578984180957" duration="9966000" />
+      <workItem from="1579050858807" duration="774000" />
+      <workItem from="1579051667294" duration="17839000" />
+      <workItem from="1579137772079" duration="18728000" />
+      <workItem from="1579223776068" duration="3253000" />
+      <workItem from="1579240151393" duration="14731000" />
+      <workItem from="1579398207411" duration="1705000" />
+      <workItem from="1579400346364" duration="17280000" />
+      <workItem from="1579483748233" duration="386000" />
+      <workItem from="1579484156366" duration="812000" />
+      <workItem from="1579498440050" duration="2198000" />
+      <workItem from="1579586042953" duration="5904000" />
+      <workItem from="1583116639081" duration="10786000" />
+      <workItem from="1583139215948" duration="2109000" />
+      <workItem from="1583197866394" duration="6361000" />
+      <workItem from="1583393542911" duration="4974000" />
+      <workItem from="1583718088221" duration="21519000" />
+      <workItem from="1583803319805" duration="3428000" />
+      <workItem from="1583978339570" duration="3858000" />
+      <workItem from="1584064221985" duration="13733000" />
+      <workItem from="1584321921844" duration="4454000" />
+      <workItem from="1584336194795" duration="6380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583135275020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583135275020" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577411883977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577411883977" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1576654714137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1576654714137" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584342547855">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584342547855" />
+    <state x="583" y="222" width="382" height="222" key="Github.CreateGistDialog" timestamp="1584342642507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="222" width="382" height="222" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1584342642507" />
+    <state x="470" y="294" width="586" height="287" key="Github.ShareDialog" timestamp="1584342865506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="294" width="586" height="287" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1584342865506" />
+    <state x="125" y="72" key="SettingsEditor" timestamp="1584342840033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="125" y="72" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584342840033" />
+    <state x="94" y="338" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1579422537209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="94" y="338" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1579422537209" />
+    <state x="537" y="38" width="782" height="786" key="find.popup" timestamp="1584341500628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="38" width="782" height="786" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1584341500628" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1576033346250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1576033346250" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579426290246">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579426290246" />
+  </component>
+</project>

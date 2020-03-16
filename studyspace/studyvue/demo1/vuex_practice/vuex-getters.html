@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vuex-getters</title>
+  <script src="./../node_modules/vue/dist/vue.min.js"></script>
+  <script src="./../node_modules/vuex/dist/vuex.min.js"></script>
+</head>
+<body>
+
+<div id="app">
+  <h3>{{ msg }}</h3>
+  <counter></counter>
+</div>
+
+<script>
+
+
+  const storer = new Vuex.Store({
+    state: {
+      count: 0
+    },
+    getters:{
+      countC(state){
+        return state.count + '$'
+      }
+    }
+  });
+
+  const counter = {
+    template: '<p>{{  this.$store.getters.countC }}</p>',
+    // computed:{
+    //   count() {
+    //     return this.$store.state.count;
+    //   }
+    // }
+  };
+
+  var Vm = new Vue({
+    el: '#app',
+    store: storer,
+    data:{
+      msg: "VUEX练习-getters"
+    },
+    components:{
+      counter
+    }
+  })
+
+</script>
+</body>
+</html>

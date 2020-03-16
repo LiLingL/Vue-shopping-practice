@@ -1,0 +1,46 @@
+{
+  "status": "0",
+  "msg": "",
+  "result": [
+    {
+      "addressId": 100001,
+      "userName": "Jack",
+      "streetName": "上海浦东新区曹路",
+      "postCode": 100001,
+      "tel": "13405362975",
+      "isDefault": true
+    },
+    {
+      "addressId": 100002,
+      "userName": "Tom",
+      "streetName": "上海浦东新区金桥",
+      "postCode": 100002,
+      "tel": "12658473629",
+      "isDefault": false
+    },
+    {
+      "addressId": 100003,
+      "userName": "Json",
+      "streetName": "上海浦东新区唐镇",
+      "postCode": 100003,
+      "tel": "16842697513",
+      "isDefault": false
+    },
+    {
+      "addressId": 100004,
+      "userName": "Alice",
+      "streetName": "上海浦东新区世纪大道",
+      "postCode": 100004,
+      "tel": "18623974568",
+      "isDefault": false
+    },
+    {
+      "addressId": 100005,
+      "userName": "Lucy",
+      "streetName": "上海浦东新区张江",
+      "postCode": 100005,
+      "tel": "15687429358",
+      "isDefault": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vuex-mutations</title>
+    <script src="./../node_modules/vue/dist/vue.min.js"></script>
+    <script src="./../node_modules/vuex/dist/vuex.min.js"></script>
+</head>
+<body>
+
+  <div id="app">
+    <h3>{{ msg }}</h3>
+    <a @click="add">点击</a>
+    <counter></counter>
+  </div>
+
+  <script>
+
+
+    const storer = new Vuex.Store({
+      state: {
+        count: 0
+      },
+      mutations:{
+        increnent(state){
+          state.count ++;
+        }
+      }
+    });
+
+    const counter = {
+      template: '<p>{{  this.$store.state.count }}</p>',
+      // computed:{
+      //   count() {
+      //     return this.$store.state.count;
+      //   }
+      // }
+    };
+
+    var Vm = new Vue({
+      el: '#app',
+      store: storer,
+      data:{
+        msg: "VUEX练习-mutations"
+      },
+      components:{
+        counter
+      },
+      methods:{
+        add(){
+          this.$store.commit('increnent')
+        }
+      }
+    })
+
+  </script>
+</body>
+</html>

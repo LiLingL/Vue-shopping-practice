@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vvv</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <style>
+        .router-link-active{
+            color: red;
+        }
+
+        .v-enter,.v-leave-to {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        .v-enter-active,.v-leave-active {
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app">
+        <p>{{msg}}</p>
+        <p>
+            <router-link to="/login?id=1&name=qqq" tag="a">login</router-link>
+            <router-link to="/register/2/res" tag="a">register</router-link>
+        </p>
+        <transition mode="out-in">
+            <router-view></router-view>
+        </transition>
+    </div>
+
+    <template id="logintemp">
+        <div>
+            <h2>这是login组件....id: {{$route.query.id}} -- name: {{$route.query.name}}</h2>
+            <p>
+                <router-link to="/login/con1" tag="a">con1</router-link>
+                <router-link to="/login/con2" tag="a">con2</router-link>
+            </p>
+            <router-view></router-view>
+        </div>
+    </template>
+
+    <script>
+
+
+
+        var login = {
+            template: '#logintemp'
+            // template: '<h2>这是login组件....id: {{$route.query.id}} -- name: {{$route.query.name}}</h2>'
+        }
+
+        var register = {
+            template: '<h2>register   id: {{$route.params.id}} -- name: {{$route.params.name}}</h2>'
+        }
+
+        var con1 = {
+            template: '<h6>con1</h6>'
+        }
+
+        var con2 = {
+            template: '<h6>con2</h6>'
+        }
+
+        var routerObj = new VueRouter({
+            routes: [
+                {
+                    path: '/login',
+                    component: login,
+                    children: [
+                        {path: 'con1', component: con1},
+                        {path: 'con2', component: con2}
+                    ]
+                },
+                {path: '/register/:id/:name', component: register},
+                {path: '/', redirect: '/login'}
+            ]
+        })
+
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                msg: "hello"
+            },
+            router: routerObj
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vuex-actions</title>
+    <script src="./../node_modules/vue/dist/vue.min.js"></script>
+    <script src="./../node_modules/vuex/dist/vuex.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{ msg }}</p>
+        <a @click="add">点击</a>
+        <counter></counter>
+    </div>
+
+  <script>
+      const counter = {
+        template: '<div>{{ count }}</div>',
+        computed:{
+          count(){
+            return this.$store.state.count;
+          }
+        }
+      };
+
+      const store = new Vuex.Store({
+        state: {
+          count: 0
+        },
+        mutations: {
+          increntent(state) {
+            state.count ++
+          }
+        },
+        actions:{
+          incrententAction(context) {
+            context.commit("increntent")
+          }
+        }
+      });
+      new Vue({
+        el: '#app',
+        data:{
+          msg: "vuex-actions练习"
+        },
+        store,
+        components:{
+          counter
+        },
+        methods:{
+          add(){
+            this.$store.dispatch('incrententAction')
+          }
+        }
+      })
+  </script>
+</body>
+</html>

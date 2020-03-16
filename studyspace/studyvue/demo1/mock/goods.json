@@ -1,0 +1,132 @@
+{
+  "status": "0",
+  "msg": "",
+  "result": [
+    {
+      "productId": "100001",
+      "productName": "音响",
+      "productPrice": 453,
+      "productImg": "1.jpg"
+    },
+    {
+      "productId": "100002",
+      "productName": "水龙头",
+      "productPrice": 53,
+      "productImg": "2.jpg"
+    },
+    {
+      "productId": "100003",
+      "productName": "耳机红",
+      "productPrice": 23,
+      "productImg": "3.jpg"
+    },
+    {
+      "productId": "100004",
+      "productName": "耳机黑",
+      "productPrice": 32,
+      "productImg": "4.jpg"
+    },
+    {
+      "productId": "100005",
+      "productName": "lev充电宝",
+      "productPrice": 184,
+      "productImg": "5.jpg"
+    },
+    {
+      "productId": "100006",
+      "productName": "插板",
+      "productPrice": 87,
+      "productImg": "6.jpg"
+    },
+    {
+      "productId": "100007",
+      "productName": "连线耳机",
+      "productPrice": 68,
+      "productImg": "7.jpg"
+    },
+    {
+      "productId": "100008",
+      "productName": "小米充电宝",
+      "productPrice": 168,
+      "productImg": "8.jpg"
+    },
+    {
+      "productId": "100009",
+      "productName": "小米按摩泡脚桶",
+      "productPrice": 367,
+      "productImg": "9.jpg"
+    },
+    {
+      "productId": "100010",
+      "productName": "小米智能显示屏",
+      "productPrice": 568,
+      "productImg": "10.jpg"
+    },
+    {
+      "productId": "100011",
+      "productName": "连耳机粉",
+      "productPrice": 67,
+      "productImg": "11.jpg"
+    },
+    {
+      "productId": "100012",
+      "productName": "耳机白",
+      "productPrice": 95,
+      "productImg": "12.jpg"
+    },
+    {
+      "productId": "100013",
+      "productName": "音响橙",
+      "productPrice": 368,
+      "productImg": "13.jpg"
+    },
+    {
+      "productId": "100014",
+      "productName": "音响粉",
+      "productPrice": 368,
+      "productImg": "14.jpg"
+    },
+    {
+      "productId": "100015",
+      "productName": "数据线",
+      "productPrice": 60,
+      "productImg": "15.jpg"
+    },
+    {
+      "productId": "100016",
+      "productName": "leme耳机",
+      "productPrice": 75,
+      "productImg": "16.jpg"
+    },
+    {
+      "productId": "100017",
+      "productName": "小米手机mi6",
+      "productPrice": 1366,
+      "productImg": "17.jpg"
+    },
+    {
+      "productId": "100018",
+      "productName": "小米笔记本",
+      "productPrice": 1988,
+      "productImg": "18.jpg"
+    },
+    {
+      "productId": "100019",
+      "productName": "小米智能摄像头",
+      "productPrice": 1600,
+      "productImg": "19.jpg"
+    },
+    {
+      "productId": "100020",
+      "productName": "代步车电动",
+      "productPrice": 1900,
+      "productImg": "20.jpg"
+    },
+    {
+      "productId": "100021",
+      "productName": "自拍杆",
+      "productPrice": 66,
+      "productImg": "21.jpg"
+    }
+  ]
+}

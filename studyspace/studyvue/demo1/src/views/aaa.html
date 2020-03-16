@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>axios</title>
+    <script src="../../node_modules/vue/dist/vue.min.js"></script>
+    <script src="../../node_modules/axios/dist/axios.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        <button @click="get">get请求</button>
+        <button @click="post">post请求</button>
+        <button @click="getpost">并发请求</button>
+        <button @click="http">配置请求</button>
+        <div>
+            {{ msg }}
+        </div>
+    </div>
+
+    <script>
+
+      const p1 = new Promise(function(resolve,reject){
+        resolve('success1');
+        resolve('success2');
+      });
+      const p2 = new Promise(function(resolve,reject){
+        resolve('success3');
+        reject('reject');
+      });
+      p1.then(function(value){
+        console.log(value); // success1
+      });
+      p2.then(function(value){
+        console.log(value); // success3
+      });
+
+      var vm = new Vue({
+            el: '#app',
+            data: {
+                msg: ''
+            },
+            mounted: function(){
+                axios.interceptors.request.use(function (config) {
+                    console.log('request')
+                    return config
+                })
+                axios.interceptors.response.use(function (response) {
+                    console.log('response')
+                    return response
+                })
+
+            },
+            methods: {
+
+                get: function () {
+                    var vm = this
+                    axios.get("../../package.json", {
+                        params: {
+                            id: 999
+                        },
+                        headers: {
+                            token: '1234556'
+                        }
+                    })
+                    .then(function (response) {
+                        vm.msg = response
+                    })
+                    .catch(function (error) {
+                        vm.msg = error
+                    })
+                },
+                post: function () {
+                    axios.post("../../package.json", {
+                      parid: 1,
+                      parname: 'aaa'
+                    }, {
+                      headers: {
+                        token: '1234456'
+                      }
+                    }).then(res => {
+                      this.msg = res.data
+                    }).catch(error => {
+                      this.msg = error
+                    })
+                },
+                http: function() {
+                    axios({
+                        url: '../../package.json',
+                        method: 'post',
+                        params: {
+                            id: 1
+                        },
+                        headers: {
+                            token: '12345567'
+                        },
+                        data: {
+                            name: 'aaa'
+                        }
+                    }).then(res => {
+                        this.msg = res.data
+                    }).catch(error => {
+                        this.msg = error
+                    })
+                },
+                getpost: function () {
+                    function getP() {
+                        axios.get('../../package.json')
+                    }
+                    function getPl() {
+                      axios.get('../../package-lock.json')
+                    }
+                    axios.all([getP(), getPl()])
+                    .then()
+                }
+            }
+        })
+    </script>
+</body>
+</html>
